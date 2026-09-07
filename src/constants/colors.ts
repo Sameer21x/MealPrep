@@ -2,6 +2,7 @@ export const colors = {
   background: '#FDFFFB',
   surface: '#FFFFFF',
   /** One neutral fill covers the back button, progress track, slider and disabled buttons. */
+
   surfaceMuted: '#F2F2F7',
   text: '#000000',
   textMuted: '#898A8D',
