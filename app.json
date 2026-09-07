@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "MealPrep",
+    "slug": "MealPrep-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "MealPrepexpo",
+    "userInterfaceStyle": "light",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FDFFFB",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.MealPrepexpo"
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FDFFFB",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 230,
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Promo-Light.ttf",
+            "./assets/fonts/Promo-Regular.ttf",
+            "./assets/fonts/Promo-Normal.ttf",
+            "./assets/fonts/Promo-Medium.ttf",
+            "./assets/fonts/Promo-SemiBold.ttf",
+            "./assets/fonts/Promo-Bold.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}

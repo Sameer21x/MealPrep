@@ -1,0 +1,124 @@
+{
+  "app": {
+    "name": "MealPrep",
+    "bootErrorTitle": "Couldn't start the app"
+  },
+  "common": {
+    "back": "Back",
+    "continue": "Continue"
+  },
+  "lander": {
+    "cta": "Create your meal plan"
+  },
+  "budget": {
+    "title": "What's your budget?",
+    "perWeek": "per week",
+    "progress": "Step 1 of 4",
+    "sliderLabel": "Weekly budget in euros",
+    "insight": {
+      "friendly": "Budget friendly",
+      "balanced": "Balanced",
+      "variety": "More variety",
+      "flex": "Maximum flexibility"
+    },
+    "insightRange": "€{{min}}–€{{max}}"
+  },
+  "dietary": {
+    "title": "Any dietary needs?",
+    "progress": "Step 2 of 4",
+    "options": {
+      "none": "None",
+      "veggie": "Veggie",
+      "vegan": "Vegan",
+      "pescatarian": "Pescatarian",
+      "glutenFree": "Gluten free",
+      "dairyFree": "Dairy free"
+    }
+  },
+  "nutrition": {
+    "title": "Any nutritional goals?",
+    "progress": "Step 3 of 4",
+    "options": {
+      "none": "None",
+      "high_protein": "High protein",
+      "low_sugar": "Low sugar",
+      "low_fat": "Low fat",
+      "low_carbs": "Low carbs",
+      "low_salt": "Low salt"
+    }
+  },
+  "mealPlan": {
+    "greeting": "Bon appetit!",
+    "estCost": "Est. cost",
+    "costPerWeek": "€{{cost}} / week",
+    "costUnknown": "€— / week",
+    "ofBudget": "of €{{budget}}",
+    "ingredients": "Ingredients",
+    "recipe": "Recipe",
+    "swap": "Swap this meal",
+    "swapTitle": "What would you prefer?",
+    "swapCancel": "Not now",
+    "swapOptions": {
+      "faster": "Faster",
+      "cheaper": "Cheaper",
+      "healthier": "Healthier",
+      "surprise": "Surprise me"
+    },
+    "errorTitle": "Couldn't generate your plan",
+    "retry": "Retry",
+    "relaxed": "Too few products matched everything, so {{goals}} was set aside for this plan.",
+    "progress": {
+      "title": "Building your week…",
+      "preferences": "Understanding preferences",
+      "ingredients": "Finding matching ingredients",
+      "budget": "Balancing your budget",
+      "recipes": "Creating your recipes",
+      "ready": "Your week is ready ✨"
+    },
+    "dayShort": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun",
+      "thu1": "Thu",
+      "fri1": "Fri",
+      "sat1": "Sat",
+      "sun1": "Sun"
+    },
+    "dayLong": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "slot": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "extra": "Extra"
+    },
+    "meta": {
+      "minutes": "{{count}} min",
+      "servings_one": "{{count}} serving",
+      "servings_other": "{{count}} servings",
+      "perServing": "€{{price}}"
+    }
+  },
+  "language": {
+    "en": "EN",
+    "it": "IT",
+    "switchToEnglish": "Switch to English",
+    "switchToItalian": "Switch to Italian"
+  },
+  "errors": {
+    "genericTitle": "Something went wrong",
+    "generic": "Something went wrong. Please try again.",
+    "boot": "App failed to start."
+  }
+}

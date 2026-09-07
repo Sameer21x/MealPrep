@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "MealPrep",
+    "bootErrorTitle": "Impossibile avviare l'app"
+  },
+  "common": {
+    "back": "Indietro",
+    "continue": "Continua"
+  },
+  "lander": {
+    "cta": "Crea il tuo piano alimentare"
+  },
+  "budget": {
+    "title": "Qual è il tuo budget?",
+    "perWeek": "a settimana",
+    "progress": "Passo 1 di 4",
+    "sliderLabel": "Budget settimanale in euro",
+    "insight": {
+      "friendly": "Economico",
+      "balanced": "Equilibrato",
+      "variety": "Più varietà",
+      "flex": "Massima flessibilità"
+    },
+    "insightRange": "€{{min}}–€{{max}}"
+  },
+  "dietary": {
+    "title": "Hai esigenze alimentari?",
+    "progress": "Passo 2 di 4",
+    "options": {
+      "none": "Nessuna",
+      "veggie": "Vegetariano",
+      "vegan": "Vegano",
+      "pescatarian": "Pescetariano",
+      "glutenFree": "Senza glutine",
+      "dairyFree": "Senza lattosio"
+    }
+  },
+  "nutrition": {
+    "title": "Hai obiettivi nutrizionali?",
+    "progress": "Passo 3 di 4",
+    "options": {
+      "none": "Nessuno",
+      "high_protein": "Ricco di proteine",
+      "low_sugar": "Pochi zuccheri",
+      "low_fat": "Pochi grassi",
+      "low_carbs": "Pochi carboidrati",
+      "low_salt": "Poco sale"
+    }
+  },
+  "mealPlan": {
+    "greeting": "Buon appetito!",
+    "estCost": "Costo stimato",
+    "costPerWeek": "€{{cost}} / settimana",
+    "costUnknown": "€— / settimana",
+    "ofBudget": "su €{{budget}}",
+    "ingredients": "Ingredienti",
+    "recipe": "Ricetta",
+    "swap": "Cambia questo pasto",
+    "swapTitle": "Cosa preferisci?",
+    "swapCancel": "Non ora",
+    "swapOptions": {
+      "faster": "Più veloce",
+      "cheaper": "Più economico",
+      "healthier": "Più sano",
+      "surprise": "Sorprendimi"
+    },
+    "errorTitle": "Non è stato possibile creare il piano",
+    "retry": "Riprova",
+    "relaxed": "Troppi pochi prodotti soddisfacevano tutto, così {{goals}} è stato messo da parte per questo piano.",
+    "progress": {
+      "title": "Creiamo la tua settimana…",
+      "preferences": "Analisi delle preferenze",
+      "ingredients": "Ricerca degli ingredienti",
+      "budget": "Bilanciamento del budget",
+      "recipes": "Creazione delle ricette",
+      "ready": "La tua settimana è pronta ✨"
+    },
+    "dayShort": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Gio",
+      "fri": "Ven",
+      "sat": "Sab",
+      "sun": "Dom"
+    },
+    "dayLong": {
+      "mon": "Lunedì",
+      "tue": "Martedì",
+      "wed": "Mercoledì",
+      "thu": "Giovedì",
+      "fri": "Venerdì",
+      "sat": "Sabato",
+      "sun": "Domenica"
+    },
+    "slot": {
+      "breakfast": "Colazione",
+      "lunch": "Pranzo",
+      "dinner": "Cena",
+      "extra": "Extra"
+    },
+    "meta": {
+      "minutes": "{{count}} min",
+      "servings_one": "{{count}} porzione",
+      "servings_other": "{{count}} porzioni",
+      "perServing": "€{{price}}"
+    }
+  },
+  "language": {
+    "en": "EN",
+    "it": "IT",
+    "switchToEnglish": "Passa all'inglese",
+    "switchToItalian": "Passa all'italiano"
+  },
+  "errors": {
+    "genericTitle": "Qualcosa è andato storto",
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "boot": "Avvio dell'app non riuscito."
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+dist
+web-build
+.expo
+.kotlin
+android
+ios
+coverage
+package-lock.json
+*.tsbuildinfo
+src/constants/product_catalog_en.json
